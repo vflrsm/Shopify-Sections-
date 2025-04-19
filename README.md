@@ -18,13 +18,12 @@ This repository contains a collection of reusable Shopify sections and blocks de
 
 ## Usage
 
-1. Go to your Shopify admin panel.
-2. Navigate to **Online Store > Themes > Customize**.
-3. Add the new section or block to the desired page and configure its settings.
-
+1. Look for the exact section you want to implement 
+2. Read the installation process (all tested on Dawn 15 Superior)
+3. Create a copy of your theme, install by the instructions and save.
 ## Contributing
 
-Contributions are welcome! If you have a new section or block to share, feel free to submit a pull request. Please ensure your code follows Shopify's Liquid and theme development guidelines.
+Contributions are welcome! If you have a new section or block to share, feel free to submit a pull request. Please ensure your code follows Shopify's Liquid and theme development guidelines. Create the folder with the main feature of your section. 
 
 ## License
 
