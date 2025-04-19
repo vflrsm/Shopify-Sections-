@@ -2,10 +2,13 @@
 
 This repository contains a collection of reusable Shopify sections and blocks designed to enhance your Shopify store's functionality and design. Each section and block is modular, customizable, and easy to integrate into your Shopify theme.
 
+**Developed by**: [Deval](https://www.linkedin.com/in/deval)  
+**Current version**: v1.0
+
 ## Features
 
 - **Reusable Components**: Pre-built sections and blocks for common Shopify store needs.
-- **Customizable**: Easily modify the code to fit your store's branding and requirements.
+- **Customizable**: Easily modify the code to fit your store's branding and specific requirements.
 - **Responsive Design**: All components are mobile-friendly and optimized for various screen sizes.
 - **Shopify Standards**: Built following Shopify's best practices for Liquid, HTML, CSS, and JavaScript.
 
@@ -27,17 +30,17 @@ This repository contains a collection of reusable Shopify sections and blocks de
 ## Installation
 
 1. Clone this repository to your local machine:
-    ```
-    git clone https://github.com/your-username/shopify-sections-blocks.git
+    ```bash
+    git clone https://github.com/vflrsm/shopify-sections-blocks.git
     ```
 2. Copy the desired section or block files into your Shopify theme's `sections` or `snippets` folder.
-3. Include the section or block in your theme's `theme.liquid` or relevant template files.
+3. Include the section or block in your `theme.liquid` file or relevant template files.
 
 ## Usage
 
-1. Navigate to your Shopify admin panel.
-2. Go to **Online Store > Themes > Customize**.
-3. Add the new section or block to your desired page and configure its settings.
+1. Go to your Shopify admin panel.
+2. Navigate to **Online Store > Themes > Customize**.
+3. Add the new section or block to the desired page and configure its settings.
 
 ## Contributing
 
@@ -45,8 +48,8 @@ Contributions are welcome! If you have a new section or block to share, feel fre
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
-For questions or support, please reach out to [your-email@example.com].
+For inquiries or support, please contact me at [valleryfloresmontero@gmail.com](mailto:valleryfloresmontero@gmail.com).
