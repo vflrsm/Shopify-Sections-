@@ -1,4 +1,4 @@
-![Texto alternativo](./assets/shopify-sections-cover.png)
+![cover](./assets/shopify-sections-cover.png)
 
 # Shopify Sections & Blocks
 
