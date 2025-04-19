@@ -1,3 +1,5 @@
+![Texto alternativo](./assets/shopify-sections-cover.png)
+
 # Shopify Sections & Blocks
 
 This repository contains a collection of reusable Shopify sections and blocks designed to enhance your Shopify store's functionality and design. Each section and block is modular, customizable, and easy to integrate into your Shopify theme.
