@@ -7,28 +7,6 @@ This repository contains a collection of reusable Shopify sections and blocks de
 **Developed by**: [Deval](https://www.linkedin.com/in/deval)  
 **Current version**: v1.0
 
-## Features
-
-- **Reusable Components**: Pre-built sections and blocks for common Shopify store needs.
-- **Customizable**: Easily modify the code to fit your store's branding and specific requirements.
-- **Responsive Design**: All components are mobile-friendly and optimized for various screen sizes.
-- **Shopify Standards**: Built following Shopify's best practices for Liquid, HTML, CSS, and JavaScript.
-
-## Sections
-
-- **Hero Banner**: A customizable hero section with text, images, and call-to-action buttons.
-- **Product Grid**: Display products in a grid layout with filtering options.
-- **Testimonials**: Showcase customer reviews and testimonials.
-- **Image with Text**: A section for pairing images with descriptive text.
-- **Newsletter Signup**: A block to capture customer emails for your mailing list.
-
-## Blocks
-
-- **Custom Button**: Add a button with customizable text and links.
-- **Image Card**: Display an image with a title and description.
-- **Rich Text**: Add formatted text content to your pages.
-- **Video Embed**: Embed videos from YouTube or Vimeo.
-
 ## Installation
 
 1. Clone this repository to your local machine:
