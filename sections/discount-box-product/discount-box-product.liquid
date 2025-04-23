@@ -1,0 +1,57 @@
+{% schema %}
+    {
+      "name": "Discount Box",
+      "settings": [
+        {
+          "type": "text",
+          "id": "discount_percentage",
+          "label": "Discount Percentage",
+          "default": "15"
+        },
+        {
+          "type": "text",
+          "id": "discount_code",
+          "label": "Discount Code",
+          "default": "examplecode"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Color",
+          "default": "#f2f2f2"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "image_picker",
+          "id": "product_image",
+          "label": "Product Image"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Discount Box"
+        }
+      ]
+    }
+    {% endschema %}
+    
+    <div class="discount-box" style="--bg-color: {{ section.settings.background_color }}; --text-color: {{ section.settings.text_color }};">
+        {% if section.settings.product_image %}
+        <img src="{{ section.settings.product_image | image_url: 'medium' }}" alt="Discount Product" style="width: 100px; height: 100px; object-fit: cover; border-radius: 100%;">
+      {% endif %}
+    
+      <div>
+        <p style="font-size: 2rem; font-weight: bold;">{{ section.settings.discount_percentage }}% <span style="font-size: 1rem;">OFF</span></p>
+        <p style="margin: 0.5rem 0;">Save with this discount code:</p>
+        <div style="background: #333; color: white; padding: 0.5rem 1rem; border-radius: 0.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+          <span>{{ section.settings.discount_code }}</span>
+          <button onclick="navigator.clipboard.writeText('{{ section.settings.discount_code }}')" style="background: none; border: none; color: white; cursor: pointer;">📋</button>
+        </div>
+      </div>
+    </div>
+    
